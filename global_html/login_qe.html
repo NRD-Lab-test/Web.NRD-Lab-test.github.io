@@ -72,7 +72,7 @@
                     <label for="inputGroupSelect05">Experiment</label>
                     <select class="custom-select" id="Experiment_chosen">
                       <option selected>Choose...</option>
-                      <option value=".DS_Store">.DS_Store</option>                      <option value="ATTEMPT3">ATTEMPT3</option>                      <option value="A_New_Exp">A_New_Exp</option>                      <option value="dualGate5_exp">dualGate5_exp</option>                      <option value="dualGate8_exp">dualGate8_exp</option>
+                      <option value="dualGate8_exp">dualGate8_exp</option>
                       <option value="Cookie Tester">Cookie Tester</option>
                     </select>
                   </div>
@@ -122,22 +122,6 @@
 
     document.cookie="register_loc=qe , exp="+exp+" , id="+responded.SID+" , email="+responded.email+"; path=/"
     //addition_of_experiments
-    //.DS_Store_start_redirect
-    if (exp==".DS_Store")
-    {location.href = "../.DS_Store/consent/consent.html"};
-     //.DS_Store_end_redirect
-    //ATTEMPT3_start_redirect
-    if (exp=="ATTEMPT3")
-    {location.href = "../ATTEMPT3/consent/consent.html"};
-     //ATTEMPT3_end_redirect
-    //A_New_Exp_start_redirect
-    if (exp=="A_New_Exp")
-    {location.href = "../A_New_Exp/consent/consent.html"};
-     //A_New_Exp_end_redirect
-    //dualGate5_exp_start_redirect
-    if (exp=="dualGate5_exp")
-    {location.href = "../dualGate5_exp/consent/consent.html"};
-     //dualGate5_exp_end_redirect
     //dualGate8_exp_start_redirect
     if (exp=="dualGate8_exp")
     {location.href = "../dualGate8_exp/consent/consent.html"};
